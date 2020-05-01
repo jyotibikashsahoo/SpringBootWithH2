@@ -1,11 +1,11 @@
 insert into Chat(id,session_id,type,agent_mail,agent_type,agent_name)
-values(10001,'1234','ONDEMAND','xyz@schwab.com','ChatAgent','xyz');
+values(10001,'1234','ONDEMAND','xyz@abc.com','ChatAgent','xyz');
 
 insert into Chat(id,session_id,type,agent_mail,agent_type,agent_name)
-values(10002,'1235','DIGITALSAFE','yml@schwab.com','EmailAgent','yml');
+values(10002,'1235','DIGITALSAFE','yml@bks.com','EmailAgent','yml');
 
 insert into Chat(id,session_id,type,agent_mail,agent_type,agent_name)
-values(10003,'1236','SMARSH','abc@schwab.com','VoiceAgent','abc');
+values(10003,'1236','SMARSH','abc@mkg.com','VoiceAgent','abc');
 
 insert into Currency_Exchange_Service(id,currency_from,currency_to,conversion_multiple,port)
 values(10001,'USD','INR',65,0);
